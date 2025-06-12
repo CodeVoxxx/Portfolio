@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- ======================================================= -->
+        <!--! METADATA, FONTS & STYLES -->
+        <!-- ======================================================= -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joshua Limas | Creative Full Stack Engineer</title>
+        
+        <!--! SEO & Social Sharing -->
+        <meta name="description" content="The digital portfolio of Joshua Limas, a creative full-stack engineer building high-end, animated, and performant web experiences.">
+        <meta name="author" content="Joshua Limas">
+        <meta property="og:title" content="Joshua Limas | Creative Full Stack Engineer">
+        <meta property="og:description" content="Architecting and building exceptional digital experiences from the ground up.">
+        
+        <!-- Replace this with a real image URL for social sharing -->
+        <meta property="og:image" content="https://your-domain.com/social-share-image.png"> 
+        <meta property="og:url" content="https://your-domain.com">
+        <meta name="twitter:card" content="summary_large_image">
+        
+        <!--! Favicon -->
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+        
+        <!--! Fonts: We are using high-quality Google Fonts for a premium feel. -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        
+        <!--! CSS Stylesheet (Correctly linked to your filename) -->
+        <link rel="stylesheet" href="cardd.css">
+    </head>
+
+    <body>
+
+        <!-- ======================================================= -->
+        <!--! Custom Cursor (A premium touch) -->
+        <!-- ======================================================= -->
+        <div class="cursor"></div>
+
+        <!-- ======================================================= -->
+        <!--! Page Loader Animation -->
+        <!-- ======================================================= -->
+        <div class="loader">
+            <div class="loader__gate"></div>
+            <div class="loader__gate"></div>
+        </div>
+        
+        <!-- ======================================================= -->
+        <!--! HEADER / NAVIGATION -->
+        <!-- ======================================================= -->
+        <header class="site-header">
+            <nav class="container site-header__nav">
+                <a href="#hero" class="site-header__logo" aria-label="Navigate to top of the page">J.L.</a>
+                <ul class="site-header__links">
+                    <!-- ========== CHANGE 1: NAVIGATION LINK UPDATED ========== -->
+                    <li><a href="https://lifecode.substack.com/" target="_blank" rel="noopener noreferrer" data-cursor-hover>Read My Letters</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main-content">
+
+            <!-- ======================================================= -->
+            <!--! HERO SECTION (COMPLETELY REVISED) -->
+            <!-- ======================================================= -->
+            <section class="hero-section text-center" id="hero">
+                <div class="container">
+                    <!-- "Eyebrow" text -->
+                    <p class="hero-eyebrow" data-animation="fade-up">
+                        JOSHUA LIMAS
+                    </p>
+                    
+                    <!-- Main Headline, split for animation -->
+                    <h1 class="hero-title">
+                        <div class="hero-title__line" data-animation="text-reveal" data-delay="100">
+                            Work Less.
+                        </div>
+                        <div class="hero-title__line" data-animation="text-reveal" data-delay="250">
+                            Earn More.
+                        </div>
+                        <div class="hero-title__line" data-animation="text-reveal" data-delay="400">
+                            Enjoy Life.
+                        </div>
+                    </h1>
+
+                    <!-- Deck Copy / Subtitle -->
+                    <p class="hero-subtitle" data-animation="fade-up" data-delay="600">
+                        Join 120,000+ getting mindf*cked twice a week reading about the mind, the internet, and the future.
+                    </p>
+
+                    <!-- Call to Action Button -->
+                    <div class="hero-cta" data-animation="fade-up" data-delay="800">
+                        <a href="https://lifecode.substack.com/" target="_blank" rel="noopener noreferrer" class="button" data-cursor-hover>
+                            Receive 2 Free Letters a Week
+                        </a>
+                    </div>
+                </div>
+                <!-- The original hero-visual div with the image has been removed as requested -->
+            </section>
+
+            <!-- ======================================================= -->
+            <!--! ABOUT & SKILLS STACK SECTION -->
+            <!-- ======================================================= -->
+            <section class="about-section" id="about" data-scroll-section>
+                <div class="container grid about-grid">
+                    <div class="about-content">
+                        <div class="section-heading" data-animation="fade-up">
+                            <span class="subtitle">About Me</span>
+                            <h2 class="title" data-animation="text-reveal">A Fusion Of<br>Code & Creativity</h2>
+                        </div>
+                        <div class="about-description" data-animation="fade-up" data-stagger-children>
+                            <p>I'm a seasoned Full-Stack Engineer who brings ideas to life through elegant code and intuitive design. My expertise lies in architecting scalable applications and creating memorable, fluid user experiences with a keen eye for detail and motion.</p>
+                            <p>I am passionate about leveraging modern technologies to solve complex problems and build digital products that are not just functional, but delightful to use.</p>
+                        </div>
+                    </div>
+                    <div class="about-visual" data-animation="fade-up">
+                        <p class="about-visual__label">Core Expertise</p>
+                        <div class="skill-grid" data-animation="stagger-children" data-stagger-delay="100">
+                            <div class="skill-item">HTML5</div>
+                            <div class="skill-item">CSS3</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">TypeScript</div>
+                            <div class="skill-item">React</div>
+                            <div class="skill-item">Node.js</div>
+                            <div class="skill-item">Python</div>
+                            <div class="skill-item">PHP</div>
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">Rust</div>
+                            <div class="skill-item">C#</div>
+                            <div class="skill-item">C++</div>
+                            <div class="skill-item">Go</div>
+                            <div class="skill-item">Ruby</div>
+                            <div class="skill-item">SQL</div>
+                            <div class="skill-item">UI/UX Design</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ======================================================= -->
+            <!--! FEATURED WORK (HORIZONTAL SCROLLING - EXPANDED) -->
+            <!-- ======================================================= -->
+            <section class="work-section" id="work" data-scroll-section>
+                <div class="horizontal-scroll-section">
+                    <div class="pin-target">
+                        <div class="section-heading container" data-animation="fade-up">
+                            <span class="subtitle">Selected Work</span>
+                            <h2 class="title">Featured Projects</h2>
+                        </div>
+                        <div class="scroll-container">
+                            <!-- Project Cards (Now 10 projects) -->
+                            <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Enterprise SaaS Platform" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>Enterprise SaaS Platform</h3>
+                                        <span>React / TypeScript / Node.js</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Headless E-commerce Store" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>Headless E-commerce</h3>
+                                        <span>Next.js / GraphQL / Stripe</span>
+                                    </div>
+                                a>
+                            </div>
+                            <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="AI-Powered Content Generator" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>AI Content Generator</h3>
+                                        <span>Python / Flask / Vue.js</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Project Management App" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>Real-Time PM Tool</h3>
+                                        <span>Java / Spring / WebSockets</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Data Visualization Dashboard" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>Data Viz Dashboard</h3>
+                                        <span>D3.js / React / FastAPI</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/7988079/pexels-photo-7988079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Mobile Banking Application" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>Fintech Mobile App</h3>
+                                        <span>React Native / Go / PostgreSQL</span>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Creative Agency Portfolio Showcase" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>Interactive Agency Site</h3>
+                                        <span>GSAP / Three.js / Sanity</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/5926393/pexels-photo-5926393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Serverless API for IoT Devices" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>IoT Backend Platform</h3>
+                                        <span>AWS Lambda / Rust / DynamoDB</span>
+                                    </div>
+                                a>
+                            </div>
+                             <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Custom Analytics Engine" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>Marketing Analytics Engine</h3>
+                                        <span>PHP / Laravel / C#</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-card">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__link">
+                                    <img src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Collaborative design tool" class="project-card__image" loading="lazy">
+                                    <div class="project-card__content">
+                                        <h3>Real-time Design Tool</h3>
+                                        <span>Elixir / Phoenix / LiveView</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== NEW SECTION: NEWSLETTERS / BLOG ========== -->
+            <section class="newsletter-section" id="blog" data-scroll-section>
+                <div class="container">
+                    <!-- Section Heading for the Blog -->
+                    <div class="section-heading text-center" data-animation="fade-up">
+                        <span class="subtitle">THE BLOG</span>
+                        <h2 class="title">Explore Your Curiosity</h2>
+                        <p class="section-deck">Deep dives on human potential, lifestyle design, & digital business.</p>
+                    </div>
+
+                    <!-- Grid container for all the newsletter cards -->
+                    <div class="newsletter-grid" data-animation="stagger-children" data-stagger-delay="75">
+                        
+                        <!-- BLOG POST 1 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A mind map with various connected ideas" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>How To Thrive With Multiple Interests</h3>
+                                <p>By the time you graduate school, your mind exists in a box. But you’re different. You want more. Here’s how you thrive.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • June 12, 2025</p>
+                        </article>
+                        
+                        <!-- BLOG POST 2 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/4050319/pexels-photo-4050319.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Person typing on a laptop in a minimalist workspace" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>The Art of Digital Minimalism</h3>
+                                <p>Clutter isn't just physical. Your digital life is begging for a detox. Learn to focus on what truly matters online.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • June 5, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 3 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A set of gears interlocking, representing systems" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Build Systems, Not Just Goals</h3>
+                                <p>Goals can be fragile, but robust systems are anti-fragile. Let's engineer a life that runs on autopilot.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • May 29, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 4 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/163064/play-stone-network-networked-163064.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Stones connected by lines drawn in the sand" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Your Network is Your Net Worth</h3>
+                                <p>It's not about collecting contacts. It's about building genuine relationships that create exponential value.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • May 22, 2025</p>
+                        </article>
+                        
+                        <!-- BLOG POST 5 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A team collaborating over a table with laptops and notes" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>The Creator Economy Is A Lie</h3>
+                                <p>Or is it? A deep dive into the business models that actually work for independent creators in 2025.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • May 15, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 6 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/1202723/pexels-photo-1202723.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A person meditating on a mountain top at sunrise" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Unlock Deep Focus In a Distracted World</h3>
+                                <p>Your attention is your most valuable asset. Here are 5 battle-tested strategies to reclaim it from the algorithms.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • May 8, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 7 -->
+                        <article class="newsletter-card">
+                             <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=800" alt="An abstract image of code and data streams" loading="lazy" class="newsletter-card__image"></a>
+                             <div class="newsletter-card__content">
+                                <h3>Learning To Code vs. Thinking Like an Engineer</h3>
+                                <p>One is a skill, the other is a mindset. The difference is what separates a good developer from a great one.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                             </div>
+                             <p class="newsletter-card__meta">Joshua Limas • May 1, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 8 -->
+                        <article class="newsletter-card">
+                             <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A sleek, modern home office setup" loading="lazy" class="newsletter-card__image"></a>
+                             <div class="newsletter-card__content">
+                                <h3>Designing Your Ideal Lifestyle</h3>
+                                <p>Most people drift through life by default. Learn how to architect your daily existence with intention and purpose.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                             </div>
+                             <p class="newsletter-card__meta">Joshua Limas • April 24, 2025</p>
+                        </article>
+                        
+                        <!-- BLOG POST 9 -->
+                        <article class="newsletter-card">
+                             <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A glowing lightbulb symbolizing an idea" loading="lazy" class="newsletter-card__image"></a>
+                             <div class="newsletter-card__content">
+                                <h3>How To Generate Endless Ideas</h3>
+                                <p>Creativity isn't a magical gift; it's a process. Here's how to build an idea-generation machine that never runs dry.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                             </div>
+                             <p class="newsletter-card__meta">Joshua Limas • April 17, 2025</p>
+                        </article>
+                        
+                        <!-- BLOG POST 10 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/7319323/pexels-photo-7319323.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A compass pointing towards a direction on a map" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Navigating Career Pivots</h3>
+                                <p>Feeling stuck? Changing your career path is scary, but it's often the best decision you'll ever make. A guide.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • April 10, 2025</p>
+                        </article>
+                        
+                        <!-- BLOG POST 11 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/7412098/pexels-photo-7412098.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Person writing in a journal with a cup of coffee" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>The Power of a Daily Writing Habit</h3>
+                                <p>You don't need to be a writer to benefit from writing. How a simple daily habit can clarify your thinking.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • April 3, 2025</p>
+                        </article>
+                        
+                        <!-- BLOG POST 12 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg?auto=compress&cs=tinysrgb&w=800" alt="People having a discussion in a bright, modern office" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Asynchronous Work is the Future</h3>
+                                <p>Constant meetings are killing productivity. Discover the principles of asynchronous communication for a calmer, more effective team.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • March 27, 2025</p>
+                        </article>
+                        
+                        <!-- BLOG POST 13 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Brain with electrical connections" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Leverage: The Engine of Wealth</h3>
+                                <p>You can't get rich renting out your time. We'll explore code, media, and capital as the three forms of modern leverage.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • March 20, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 14 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Person walking on a tightrope" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Calculated Risk-Taking for Personal Growth</h3>
+                                <p>Your comfort zone is a dangerous place. Learn how to evaluate and take the smart risks that lead to a bigger life.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • March 13, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 15 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Team members giving high-fives in an office" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>The Solo Founder vs. The Partnership</h3>
+                                <p>Building a business alone offers freedom, but a partner can accelerate growth. A framework for deciding which path is for you.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • March 6, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 16 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/159844/cellular-telephone-cell-phone-hand-mobile-159844.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Person holding a smartphone with many apps on screen" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Kill Your Notifications, Reclaim Your Life</h3>
+                                <p>An in-depth guide to systematically eliminating digital distractions and regaining hours of your time each week.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • February 27, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 17 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/4065624/pexels-photo-4065624.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Books stacked on a table with a person reading" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>How To Read Books Above Your Level</h3>
+                                <p>Struggling with a dense or difficult book? Don't give up. Learn the techniques for extracting wisdom from complex texts.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • February 20, 2025</p>
+                        </article>
+
+                        <!-- BLOG POST 18 -->
+                        <article class="newsletter-card">
+                            <a href="#" class="newsletter-card__image-link"><img src="https://images.pexels.com/photos/840996/pexels-photo-840996.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A well-dressed man checking his watch" loading="lazy" class="newsletter-card__image"></a>
+                            <div class="newsletter-card__content">
+                                <h3>Time Affluence: The New Rich</h3>
+                                <p>Money buys happiness only up to a point. After that, freedom over your time is the ultimate currency. Let's get wealthy.</p>
+                                <a href="#" class="newsletter-card__read-more" data-cursor-hover>Read Full Post →</a>
+                            </div>
+                            <p class="newsletter-card__meta">Joshua Limas • February 13, 2025</p>
+                        </article>
+                    </div>
+
+                    <!-- CTA at the bottom of the blog section -->
+                     <div class="newsletter-cta text-center" data-animation="fade-up" data-delay="200">
+                        <a href="https://lifecode.substack.com/" target="_blank" rel="noopener noreferrer" class="button" data-cursor-hover>
+                            Explore All Letters
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ======================================================= -->
+            <!--! CALL TO ACTION SECTION -->
+            <!-- ======================================================= -->
+            <section class="cta-section" data-scroll-section>
+                <div class="container text-center">
+                    <h2 class="cta-title" data-animation="text-reveal">
+                        Let's Build Something<br>Remarkable Together.
+                    </h2>
+                    <div data-animation="fade-up" data-delay="200">
+                        <a href="mailto:joshua.portfolio@example.com" class="button cta-button" data-cursor-hover>
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ======================================================= -->
+        <!--! FOOTER -->
+        <!-- ======================================================= -->
+        <footer class="site-footer" data-scroll-section>
+            <div class="container footer-container">
+                <div class="footer-col">
+                    <span class="footer-heading">Version</span>
+                    <p>© 2025 Edition</p>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-heading">Socials</span>
+                    <ul class="social-links">
+                        <li><a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" data-cursor-hover>LinkedIn</a></li>
+                        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer" data-cursor-hover>GitHub</a></li>
+                        <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" data-cursor-hover>Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col-name">
+                    <span>Joshua Limas</span>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ======================================================= -->
+        <!--! JAVASCRIPT (Correctly linked to your filename) -->
+        <!-- ======================================================= -->
+        <script src="carddd.js"></script>
+        
+    </body>
+</html>
